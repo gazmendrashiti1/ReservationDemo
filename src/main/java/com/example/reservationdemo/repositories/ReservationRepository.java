@@ -1,6 +1,6 @@
 package com.example.reservationdemo.repositories;
 
-import com.example.reservationdemo.entites.ReservationEntity;
+import com.example.reservationdemo.entities.ReservationEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

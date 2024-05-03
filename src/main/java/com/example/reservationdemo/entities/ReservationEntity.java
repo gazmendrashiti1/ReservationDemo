@@ -1,4 +1,4 @@
-package com.example.reservationdemo.entites;
+package com.example.reservationdemo.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

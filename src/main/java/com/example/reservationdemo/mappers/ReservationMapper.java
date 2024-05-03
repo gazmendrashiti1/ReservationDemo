@@ -1,6 +1,6 @@
 package com.example.reservationdemo.mappers;
 
-import com.example.reservationdemo.entites.ReservationEntity;
+import com.example.reservationdemo.entities.ReservationEntity;
 import com.example.reservationdemo.models.ReservationDto;
 import org.springframework.stereotype.Component;
 

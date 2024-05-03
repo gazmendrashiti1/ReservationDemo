@@ -1,6 +1,5 @@
 package com.example.reservationdemo.services.impl;
 
-import com.example.reservationdemo.entites.ReservationEntity;
 import com.example.reservationdemo.mappers.ReservationMapper;
 import com.example.reservationdemo.models.ReservationDto;
 import com.example.reservationdemo.repositories.ReservationRepository;
@@ -11,7 +10,7 @@ import java.util.List;
 @Service
 public class ReservationServiceImpl implements ReservationService {
 
-    private final ReservationRepository repository; // Replace ReservationRepository with the actual repository class for reservations
+    private final ReservationRepository repository;
     private final ReservationMapper reservationMapper;
 
     public ReservationServiceImpl(ReservationRepository repository, ReservationMapper reservationMapper) {
